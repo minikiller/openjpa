@@ -77,7 +77,12 @@
             <groupId>org.apache.geronimo.specs</groupId>
             <artifactId>geronimo-validation_1.1_spec</artifactId>
             <scope>provided</scope>
-        </dependency>        
+        </dependency>
+        <dependency>
+            <groupId>org.osgi</groupId>
+            <artifactId>org.osgi.core</artifactId>
+            <version>4.2.0</version>
+        </dependency>
     </dependencies>
 
     <build>
